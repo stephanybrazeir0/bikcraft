@@ -34,7 +34,7 @@
   border-top: 2px solid var(--cor-2);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .parceiros {
     padding-bottom: 60px;
   }
@@ -46,6 +46,11 @@
   .parceiros ul {
     grid-template-columns: 1fr 1fr;
   }
+
+  .parceiros li {
+    padding: 20px;
+  }
+
   .parceiros li:nth-child(odd) {
     border-left: none;
   }
